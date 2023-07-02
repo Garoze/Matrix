@@ -46,5 +46,8 @@ _deps
 # Folders
 build/
 
+# Bin
+matrix
+
 # Cache 
 .cache/
