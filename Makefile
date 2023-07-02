@@ -13,7 +13,7 @@ OBJECT  := $(patsubst %, $(BUILD)/%, $(notdir $(SOURCE:.c=.c.o)))
 
 .PHONY: default config all clean
 
-TARGET := a.out 
+TARGET := matrix
 
 all: $(TARGET)
 
